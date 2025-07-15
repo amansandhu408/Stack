@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+    <style>
+    .bg-black{
+        background-color: brown;
+        color: aliceblue;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <div class ="bg-black">
+        <h1 id="title" class="heading"> DOM Learning 
+            <span style="display: none;" >Lorem ipsum dolor sit amet consectetur adipisicing.
+            </span>
+        </h1>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </h2>
+        <p>Lorem ipsum, dolor sit amet.</p>
+        <input type="password" name="hermit" id="">
+        <ul>
+            <li>one</li>
+            <li> two</li>
+            <li>three</li>
+        </ul>
+    </div>
+    <div class ="parent">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+
+    </div>
+</body>
+<script>
+    const parent =document.querySelector('.parent')
+    console.log(parent);
+    console.log(parent.children)
+    
+</script>
+</html>

@@ -89,8 +89,8 @@ function handleError(errmsg: string):never{
 // Objects
 
 // whenever using object use it with functions (usally while working )
-function createUser({name:string, isPaid: boolean}){}
-createUser({name: "aman", isPaid: true})
+//function createUser({name:string, isPaid: boolean}){}
+//createUser({name: "aman", isPaid: true})
 
 function createCourse():{name:string, Price: number}{     // () -> function where parameter pass
     return {name: "aman", Price:100}                      // :{} -> return type
@@ -98,7 +98,7 @@ function createCourse():{name:string, Price: number}{     // () -> function wher
 
 // what if you want to add new parameter? writing it straigth away cause error , so make new varaiabke and add
 let newUser ={name: "aman", isPaid: true, email:"user2@mail.com"}
-createUser(newUser)
+//createUser(newUser)
 
 
 
